@@ -1,0 +1,5 @@
+---
+- hosts: web
+  tasks:
+    - name: show hostname
+      shell: hostname
